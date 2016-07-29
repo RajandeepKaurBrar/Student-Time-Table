@@ -2,25 +2,21 @@
 public class Student {
  String StudentName;
  int StudentID;
- String CourseTitle;
- String TimeTable;
+ String CourseName;
  
-public Student(String studentName, int studentID, String courseTitle) {
+public Student(String studentName, int studentID, String coursename) {
 	super();
 	StudentName = studentName;
 	StudentID = studentID;
-	CourseTitle = courseTitle;
+	CourseName = coursename;
 }
  
  public void display(){
 	 System.out.println("Student Name: "+StudentName);
 	 System.out.println("Student ID : "+StudentID);
-	 System.out.println("Course Title: "+CourseTitle);
+	 System.out.println("Course Name: "+CourseName);
  }
 
 
 
-public void display2(){
-	System.out.println("Time table :"+TimeTable);
-}
 }

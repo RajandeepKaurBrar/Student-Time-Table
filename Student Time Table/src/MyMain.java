@@ -13,7 +13,9 @@ public class MyMain {
 		choice = input.nextLine();
 
 		if (choice.equals("A")) {
-			Student S1 = new Student("Rajan Brar", 1234, "IT7320");
+			Student S1 = new Student("Rajandeep Kaur Brar", 2163281, "Graduate Diplomia in Information Technology");
 			S1.display();
+			Student S2 = new Student("Harmandeep Kaur", 2164208 , "Graduate Diplomia in Information Technology");
+			S2.display();
 			
 		} } }
