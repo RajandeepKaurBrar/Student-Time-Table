@@ -21,4 +21,10 @@ public class MyMain {
 			S3.display();
 			
 			
+		}
+		else if (choice.equals("B")) {
+			Courses c1 = new Courses("Project Management", "IT6268");
+			c1.displayCourseInfo();
+			Courses c2 = new Courses("Development and Software Testing", "IT7320");
+			
 		} } }
