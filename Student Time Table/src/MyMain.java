@@ -5,7 +5,6 @@ public class MyMain {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String choice;
-		// for the output
 		System.out.println("A. View Student Info");
 		System.out.println("B. View Course Info");
 		System.out.println("C. View Student TimeTable");
@@ -17,7 +16,7 @@ public class MyMain {
 			S1.display();
 			Student S2 = new Student("Harmandeep Kaur", 2164208 , "Graduate Diplomia in Information Technology");
 			S2.display();
-			Student S3 = new Student("Amitoj Singh", 2163789, "Graduate Diplomia in Information Technology");
+			Student S3 = new Student("Amitoj Dhindsa", 2163789, "Graduate Diplomia in Information Technology");
 			S3.display();
 			
 			
@@ -33,5 +32,16 @@ public class MyMain {
 				c4.displayCourseInfo();
 
 			} 
+			else if (choice.equals("C")) {
+				Timetable t1 = new Timetable("Monday","IT6268", "8:00-9:00");
+				t1.displayTimetable();
+				Timetable t2 = new Timetable("Tuesday","IT7320", "8:00-9:00");
+				t2.displayTimetable();
+				Timetable t3 = new Timetable("Wednesday","IT7368","1:00-3:00");
+				t3.displayTimetable();
+				Timetable t4 = new Timetable("Thursday","IT6256", "2:00-4:00");
+				t4.displayTimetable();
+			}
+			
 			
 		} } 
